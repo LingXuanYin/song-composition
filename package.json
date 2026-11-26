@@ -1,0 +1,32 @@
+{
+  "name": "@anti_entropy/song-composition",
+  "version": "0.1.0",
+  "description": "Composition guidance for YuE2 scores and YuE2 song generation.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "yue2",
+    "songwriting",
+    "composition",
+    "score",
+    "agent-skill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LingXuanYin/song-composition"
+  },
+  "files": [
+    "skills/"
+  ],
+  "scripts": {
+    "check": "node scripts/check-examples.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {
+    "@anti_entropy/score-dialect-yue2": "0.4.7",
+    "@anti_entropy/score-editor": "0.4.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
